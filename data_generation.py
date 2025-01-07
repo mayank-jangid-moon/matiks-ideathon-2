@@ -3,7 +3,7 @@ import pandas as pd
 import random
 
 def generate_synthetic_data(output_file="synthetic_math_data.csv"):
-    np.random.seed(42)
+    np.random.seed(69)
     user_ids = np.arange(1, 101)
     question_categories = ['Arithmetic', 'Algebra', 'Geometry', 'Logic']
     difficulty_levels = ['Easy', 'Medium', 'Hard']
